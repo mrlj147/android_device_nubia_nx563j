@@ -8,7 +8,7 @@ vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Audio amplifer TAS2555
-etc/firmware/tas2555_uCDSP.bin:vendor/firmware/tas2555_uCDSP.bin
+etc/firmware/tas2555_uCDSP.bin
 
 # Alipay
 vendor/lib/libteeclientjni.so
@@ -17,7 +17,7 @@ vendor/lib64/libteeclientjni.so
 -priv-app/FingerprintServiceExtension/FingerprintServiceExtension.apk
 
 # CameraHAL
-vendor/lib/hw/camera.msm8998.so:vendor/lib/hw/camera.vendor.msm8998.so
+vendor/lib/hw/camera.msm8998.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmlib2d_interface.so
@@ -25,52 +25,49 @@ vendor/lib/libmm-qcamera.so
 vendor/lib/libqomx_core.so
 
 # Required by Camera HAL
-lib/libalParseOTP.so:vendor/lib/libalParseOTP.so
-lib/libalRnB.so:vendor/lib/libalRnB.so
-lib/libalSDE2.so:vendor/lib/libalSDE2.so
-lib/libalSDK.so:vendor/lib/libalSDK.so
-lib/libalSPE.so:vendor/lib/libalSPE.so
-lib/libmmcamera_nubiacustpro.so:vendor/lib/libmmcamera_nubiacustpro.so
-lib/libnubia_effect.so:vendor/lib/libnubia_effect.so
-lib/libNubiaImageAlgorithm.so:vendor/lib/libNubiaImageAlgorithm.so
-lib64/libalParseOTP.so:vendor/lib64/libalParseOTP.so
-lib64/libalRnB.so:vendor/lib64/libalRnB.so
-lib64/libalSDE2.so:vendor/lib64/libalSDE2.so
-lib64/libalSPE.so:vendor/lib64/libalSPE.so
-lib64/libnubia_effect.so:vendor/lib64/libnubia_effect.so
-lib64/libNubiaImageAlgorithm.so:vendor/lib64/libNubiaImageAlgorithm.so
+lib/libalParseOTP.so
+lib/libalRnB.so
+lib/libalSDE2.so
+lib/libalSDK.so
+lib/libalSPE.so
+lib/libmmcamera_nubiacustpro.so
+lib/libnubia_effect.so
+lib/libNubiaImageAlgorithm.so
+lib64/libalParseOTP.so
+lib64/libalRnB.so
+lib64/libalSDE2.so
+lib64/libalSPE.so
+lib64/libnubia_effect.so
+lib64/libNubiaImageAlgorithm.so
 
 # Camera
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-lib/libarcsoft_beautyshot.so:vendor/lib/libarcsoft_beautyshot.so
-lib/libarcsoft_beautyshot_image_algorithm.so:vendor/lib/libarcsoft_beautyshot_image_algorithm.so
-lib/libarcsoft_beautyshot_video_algorithm.so:vendor/lib/libarcsoft_beautyshot_video_algorithm.so
-lib/libarcsoft_dualcam_refocus.so:vendor/lib/libarcsoft_dualcam_refocus.so
-lib/libarcsoft_high_dynamic_range.so:vendor/lib/libarcsoft_high_dynamic_range.so
-lib/libarcsoft_night_shot.so:vendor/lib/libarcsoft_night_shot.so
-lib/libarcsoft_picauto.so:vendor/lib/libarcsoft_picauto.so
-lib/libmpbase.so:vendor/lib/libmpbase.so
-lib64/libarcsoft_beautyshot.so:vendor/lib64/libarcsoft_beautyshot.so
-lib64/libarcsoft_beautyshot_image_algorithm.so:vendor/lib64/libarcsoft_beautyshot_image_algorithm.so
-lib64/libarcsoft_beautyshot_video_algorithm.so:vendor/lib64/libarcsoft_beautyshot_video_algorithm.so
-lib64/libarcsoft_dualcam_refocus.so:vendor/lib64/libarcsoft_dualcam_refocus.so
-lib64/libarcsoft_night_shot.so:vendor/lib64/libarcsoft_night_shot.so
-lib64/libArcsoftAlgorithm.so:vendor/lib64/libArcsoftAlgorithm.so
-lib64/libDualCamera_Calibration.so:vendor/lib64/libDualCamera_Calibration.so
-lib64/libmpbase.so:vendor/lib64/libmpbase.so
-
+bin/mm-qcamera-daemon
+lib/libarcsoft_beautyshot.so
+lib/libarcsoft_beautyshot_image_algorithm.so
+lib/libarcsoft_beautyshot_video_algorithm.so
+lib/libarcsoft_dualcam_refocus.so
+lib/libarcsoft_high_dynamic_range.so
+lib/libarcsoft_night_shot.so
+lib/libarcsoft_picauto.so
+lib/libmpbase.so
+lib64/libarcsoft_beautyshot.so
+lib64/libarcsoft_beautyshot_image_algorithm.so
+lib64/libarcsoft_beautyshot_video_algorithm.so
+lib64/libarcsoft_dualcam_refocus.so
+lib64/libarcsoft_night_shot.so
+lib64/libArcsoftAlgorithm.so
+lib64/libDualCamera_Calibration.so
+lib64/libmpbase.so
 lib/libblurbuster.so
 lib/libhazebuster.so
 lib/libfiltergenerator.so
-lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
-lib/libts_detected_face_jni.so:vendor/lib/libts_detected_face_jni.so
-lib/libts_face_beautify_jni.so:vendor/lib/libts_face_beautify_jni.so
-lib64/libblurbuster.so
-lib64/libhazebuster.so
-lib64/libfiltergenerator.so
-lib64/libtrueportrait.so:vendor/lib64/libtrueportrait.so
-lib64/libts_detected_face_jni.so:vendor/lib64/libts_detected_face_jni.so
-lib64/libts_face_beautify_jni.so:vendor/lib64/libts_face_beautify_jni.so
+lib/libtrueportrait.so
+lib/libts_detected_face_jni.so
+lib/libts_face_beautify_jni.so
+lib64/libtrueportrait.so
+lib64/libts_detected_face_jni.so
+lib64/libts_face_beautify_jni.so
+vendor/lib/libcdsprpc.so
 vendor/lib/libChamomilePA.so
 vendor/lib/libchromaflash.so
 vendor/lib/libdualcameraddm.so
@@ -92,6 +89,7 @@ vendor/lib/libseemore.so
 -vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libubifocus.so
 vendor/lib/libvideobokeh.so
+vendor/lib64/libcdsprpc.so
 vendor/lib64/libChamomilePA.so
 vendor/lib64/libchromaflash.so
 vendor/lib64/libdualcameraddm.so
@@ -164,6 +162,13 @@ vendor/lib64/libmmcamera2_stats_lib.so
 # Camera Nubia
 lib/libalDU_Utility.so
 lib/libalRnBLV.so
+lib/libalSDE2.so
+lib/libalSDK.so
+lib/libalSPE.so
+lib/libarcsoft_dualcam_refocus.so
+lib/libmmcamera_nubiacustpro.so
+lib/libnubia_effect.so
+lib/libNubiaImageAlgorithm.so
 lib/libPrettyWaterMark.so
 lib64/libAlgorithm.so
 lib64/libArcsoftAlgorithm.so
@@ -454,19 +459,20 @@ vendor/lib/hw/consumerir.default.so
 vendor/lib64/hw/consumerir.default.so
 
 # Fingerprint sensor
-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
-lib64/com.fingerprints.extension@1.0.so:vendor/lib64/com.fingerprints.extension@1.0.so
-lib64/android.hardware.biometrics.fingerprint@2.1.so:vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
+etc/permissions/com.fingerprints.extension.xml
+framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+lib64/com.fingerprints.extension@1.0.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint.fpc@2.1-service.rc
+vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libteeclientjni.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # NFC firmware
-etc/libnfc-brcm-20797b00.conf:vendor/etc/libnfc-brcm-20797b00.conf
-etc/nfcee_access.xml:vendor/etc/nfcee_access.xml
+etc/libnfc-brcm-20797b00.conf
+etc/nfcee_access.xml
 vendor/lib64/hw/nfc_nci.bcm2079x.default.so
 vendor/firmware/Generic_unsigned_706.ncd
 vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd
@@ -476,24 +482,24 @@ vendor/firmware/BCM20797B0_002.001.043.2564.0002_Generic_NCD_Unsigned_configdata
 vendor/firmware/BCM20797B0_002.001.043.2565.0005_Generic_NCD_Unsigned_configdata.ncd
 
 # Thermal nubia config
-etc/.tp/.thermal-mode-00-01.conf:vendor/etc/.tp/.thermal-mode-00-01.conf
-etc/.tp/.thermal-mode-00-02.conf:vendor/etc/.tp/.thermal-mode-00-02.conf
-etc/.tp/.thermal-mode-00-03.conf:vendor/etc/.tp/.thermal-mode-00-03.conf
-etc/.tp/.thermal-mode-00-04.conf:vendor/etc/.tp/.thermal-mode-00-04.conf
-etc/.tp/.thermal-mode-01-01.conf:vendor/etc/.tp/.thermal-mode-01-01.conf
-etc/.tp/.thermal-mode-01-02.conf:vendor/etc/.tp/.thermal-mode-01-02.conf
-etc/.tp/.thermal-mode-01-03.conf:vendor/etc/.tp/.thermal-mode-01-03.conf
-etc/.tp/.thermal-mode-01-04.conf:vendor/etc/.tp/.thermal-mode-01-04.conf
+etc/.tp/.thermal-mode-00-01.conf
+etc/.tp/.thermal-mode-00-02.conf
+etc/.tp/.thermal-mode-00-03.conf
+etc/.tp/.thermal-mode-00-04.conf
+etc/.tp/.thermal-mode-01-01.conf
+etc/.tp/.thermal-mode-01-02.conf
+etc/.tp/.thermal-mode-01-03.conf
+etc/.tp/.thermal-mode-01-04.conf
 
 # TP firmware
-etc/firmware/nubia_tp_jdi_fw.img:vendor/firmware/nubia_tp_jdi_fw.img
+etc/firmware/nubia_tp_jdi_fw.img
 
 # Widevine - from NX609J - OPM1.171019.011 factory image
-vendor/lib/mediadrm/libwvdrmengine.so|6d0a89adc41c008a567658459ec460a301813c7d
+vendor/lib/mediadrm/libwvdrmengine.so
 
 # Misc
-etc/firmware/main_alOtp.bin:vendor/firmware/main_alOtp.bin
-etc/firmware/sub_alOtp.bin:vendor/firmware/sub_alOtp.bin
+etc/firmware/main_alOtp.bin
+etc/firmware/sub_alOtp.bin
 
 vendor/firmware/Generic_unsigned.ncd
 vendor/firmware/Generic_unsigned_119_1.ncd
